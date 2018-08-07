@@ -1,6 +1,8 @@
 # change-plist-file-in-python
-使用python修改plist 文件的相关内容<br>
 <img src="bg.jpg">
+
+
+<h2>使用python修改plist 文件的相关内容</h2><br>
 
 <p>plist 文件实质上是一个xml文件，通常在mac,iphone上看到后缀名为plist的都是这种文件，这种文件有两种形式，一种是明文的xml形式，还有一种是二进制形式的文件。所以我写了两种形式的转换。
 <p>在Xcode的项目上有很多个target，每次打包程序都要修改一次这些plist文件的版本号，纯手动来,效率极其低下。所以写了个脚本批处理一下。
